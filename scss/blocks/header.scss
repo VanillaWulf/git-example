@@ -1,0 +1,19 @@
+%flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-image: url('../../img/header-img.jpg');
+  @include font(10px, 20px, 800);
+
+  &__nav-wrp {
+    @extend %flex;
+  }
+
+  &__desc-wrp {
+    @extend %flex;
+    @include font(10px, 20px, 800);
+  }
+
+}

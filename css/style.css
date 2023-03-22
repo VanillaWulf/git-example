@@ -1,4 +1,51 @@
-.text {
-  color: #FF0000;
-  background: green;
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #333333;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.header__desc-wrp, .header__nav-wrp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-image: url("../../img/header-img.jpg");
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 800;
+  font-style: normal;
+}
+.header__desc-wrp {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.navigation__item:nth-of-type(n+2) {
+  margin: 0 0 53px;
 }

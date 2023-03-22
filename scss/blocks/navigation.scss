@@ -1,0 +1,30 @@
+//.navigation {
+//  &__list {
+//    display: flex;
+//  }
+//
+//  &__item {
+//      font-size: 18px;
+//      font-weight: 700;
+//      line-height: 25px;
+//
+//    &:nth-of-type(n+2) {
+//      margin: 0 0 53px;
+//    }
+//  }
+//}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+
+  &:nth-of-type(n+2) {
+    margin: 0 0 53px;
+  }
+}
+

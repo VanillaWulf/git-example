@@ -9,6 +9,42 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1 class="text">text</h1>
+    <header class="header">
+<!--        вы можете сделать микс для упрощения структуры-->
+        <div class="header__nav-wrp">
+            <nav class="header__list navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">pag</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__tel" href="tel:99999">9999</a>
+        </div>
+        <div class="header__desc-wrp">
+            <h1 class="header__title"></h1>
+            <p  class="header__desc"></p>
+<!--            header__button будет отвечать за внешниюю геометрию в блоке, а button за вид кнопки-->
+            <a href="" class="header__button button button_s"></a>
+<!--            вы сами решаете использовать микс или нет-->
+            <div class="header__slider">
+                <img src="" alt="" class="header__slider-img">
+                <button class="header__slider-button">prev</button>
+                <button class="header__slider-button">next</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="our-shows">
+            <h2 class="our-shows__title">наши постановки</h2>
+            <ul class="our-shows__list">
+                <li class="our-shows__item">
+                    <a class="our-shows__link" href="#">
+                        <h3 class="our-shows__item-title"></h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>

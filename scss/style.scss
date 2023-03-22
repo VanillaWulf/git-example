@@ -1,6 +1,8 @@
-$red: #FF0000;
+@import "variables";
+@import "mixin";
+@import "general";
+@import "blocks/header";
+@import "blocks/navigation";
+@import "blocks/our-shows";
 
-.text {
-  color: $red;
-  background: green;
-}
+
